@@ -5,7 +5,7 @@ Here comes yet another crypto candy dispenser. This one is Wi-Fi enabled, works 
 ## Parts
 All you need is an electric candy dispenser like the one I've bought on amazon for about 11 EUR, a microcontroller and a motor driver.
 
-We are going to use a esp8266 microcontroller, which is an excellent choice because it has built in Wi-Fi, is easily programmed with the Arduino IDE and only costs a couple of bucks. There are various esp boards out there but my favorite one is NodeMCU (you can get them starting for ~5 EUR at ebay or alibaba) which exposes most pins, has a built in USB interface for programming and has an ideal form factor for prototyping on a breadboard. 
+We are going to use a esp8266 microcontroller, which is an excellent choice because it has built in Wi-Fi, is easily programmed with the Arduino IDE and only costs a couple of bucks. There are various esp boards out there but my favorite one is NodeMCU (you can get them  for ~5 EUR at ebay or alibaba) which exposes most pins, has a built in USB interface for programming and has an ideal form factor for prototyping on a breadboard. 
 
 Since we can not power a motor directly from a microcontroller, we also need a motor driver. The L293d is one of the most frequently used integrated circuits for hobby projects. You connect it to a capable power source (batteries), to a dc-motor and to your microcontroller and that's it.
 
